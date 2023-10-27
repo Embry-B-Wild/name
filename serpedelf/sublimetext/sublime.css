@@ -1,0 +1,80 @@
+/*SELETTORE/I {proprietà:valore/i;
+	proprietà:valore/i;
+	proprietà:valore/i;
+	proprietà:valore/i;
+	proprietà:valore/i;
+	proprietà:valore/i;
+	proprietà:valore/i;
+
+}
+*/
+
+body { 
+	background:green;
+  }
+
+ div { 
+ 	background:red,
+  }
+  
+  /*********************************
+   * Raggruppa i selettori di tipo *
+   *********************************/
+  
+  h1, h2, h3, h4, h5, h6, {
+  	color: yellow;
+  }
+ 
+  /*********************************
+   * Selettore di ID               *
+   *********************************/
+  
+  #pippo
+  background: orange;
+
+  /*********************************
+   * Selettori di classi           *  
+   *********************************/
+  
+  .frutta {
+  	background: orange;
+  }
+
+  .minerali {
+  	font: -size= 22px;
+  }
+
+   .frutta, animali {
+   	 color:green;
+
+  }
+
+   /********************************
+    * Selettori di discendenza     *
+    ********************************/
+  
+  /* ul.menu li a {color:black;
+   	text-decoration: none;*/
+   
+  }
+
+    ul.menu > li > a {
+    	text-decoration: none;
+  }
+  /*********************************
+  * Proprietà a sintassi abbreviata*
+  **********************************/
+
+  .animali {
+    /*
+  	margin-top: 10px;
+  	margin-right: 10px;
+  	margin-bottom: 10px;
+  	margin-left: 10px;
+  	*/
+
+  	margin: 10px;
+  	border:10px solid black;
+  	/*padding: 10 px 5px 10px 5px;*/
+  	padding: 10px 5px;
+  }
